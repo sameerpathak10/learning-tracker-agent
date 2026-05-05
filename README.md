@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Learning Tracker Agent POC
 
 This project implements a Proof of Concept (POC) for a Learning Tracker Agent using the [Strands SDK](https://strandsagents.com/), AWS Agentcore Memory, and Terraform.
@@ -34,3 +35,6 @@ This project implements a Proof of Concept (POC) for a Learning Tracker Agent us
 - `src/memory.py`: Wrappers for AWS Agentcore Memory API.
 - `src/cli.py`: Command line interface.
 - `terraform/`: Infrastructure to set up permissions and resources for Agentcore.
+=======
+# learning-tracker-agent
+>>>>>>> d2acf64001fd9f9a52842b46d2141c8c1a2ae582
