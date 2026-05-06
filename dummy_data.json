@@ -1,0 +1,22 @@
+{
+    "default_user": {
+        "progress": {
+            "Kubernetes": "Completed Pods, currently studying Deployments",
+            "Python": "Completed basic syntax, studying asyncio",
+            "AWS Bedrock": "Just started Agentcore"
+        },
+        "preferences": {
+            "videos_preferred": true,
+            "preferred_pace": "Fast, high-level overviews"
+        }
+    },
+    "another_user": {
+        "progress": {
+            "React": "Completed state management, starting hooks"
+        },
+        "preferences": {
+            "videos_preferred": false,
+            "preferred_pace": "Slow, detailed explanations with code examples"
+        }
+    }
+}

@@ -21,6 +21,19 @@ class AgentcoreMemoryWrapper:
             "progress": {}, 
             "preferences": {}
         }
+        
+        # Load dummy data for testing if available
+        try:
+            import os
+            dummy_file = os.path.join(os.path.dirname(os.path.dirname(__file__)), "dummy_data.json")
+            if os.path.exists(dummy_file):
+                with open(dummy_file, "r") as f:
+                    dummy_data = json.load(f)
+                    if self.user_id in dummy_data:
+                        self._local_storage = dummy_data[self.user_id]
+                        logger.info(f"Loaded dummy data for user: {self.user_id}")
+        except Exception as e:
+            logger.warning(f"Could not load dummy data: {e}")
 
     def save_progress(self, topic: str, status: str) -> bool:
         """Save learning progress for a specific topic."""
