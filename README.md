@@ -1,40 +1,58 @@
-<<<<<<< HEAD
-# Learning Tracker Agent POC
+# 🧪 AI Dev Playground
 
-This project implements a Proof of Concept (POC) for a Learning Tracker Agent using the [Strands SDK](https://strandsagents.com/), AWS Agentcore Memory, and Terraform.
+This repository is a personal development playground focused on experimenting with Generative AI, cloud services, and agent-based systems.
 
-## Prerequisites
+## 📌 Purpose
 
-- Python 3.10+
-- AWS CLI installed and configured
-- Terraform installed
+The goal of this repository is to:
+- Explore Generative AI concepts and workflows
+- Experiment with cloud services (AWS and related tooling)
+- Build and test agent-based architectures
+- Prototype ideas quickly without production constraints
+- Maintain reusable utilities and learning snippets
 
-## Setup Instructions
+## ⚠️ Disclaimer
 
-1. **Install Python dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
+> This is **not a production repository**.
 
-2. **Run Local Testing CLI:**
-   You must have valid AWS credentials in your environment.
-   ```bash
-   python src/cli.py
-   ```
+- All code here is for **learning, experimentation, and prototyping only**
+- It does **not represent production-ready implementations**
+- No confidential, proprietary, or sensitive information is included
+- Any resemblance to real-world systems is purely coincidental
+- Implementations may be incomplete, unoptimized, or exploratory
 
-3. **Deploy with Terraform:**
-   ```bash
-   cd terraform
-   terraform init
-   terraform apply
-   ```
+## 🧠 Focus Areas
 
-## Architecture
-- `src/agent.py`: Agent initialization using Strands SDK.
-- `src/tools.py`: Tools for Long-Term Memory (progress and preferences).
-- `src/memory.py`: Wrappers for AWS Agentcore Memory API.
-- `src/cli.py`: Command line interface.
-- `terraform/`: Infrastructure to set up permissions and resources for Agentcore.
-=======
-# learning-tracker-agent
->>>>>>> d2acf64001fd9f9a52842b46d2141c8c1a2ae582
+This playground may include experiments in:
+
+- **Generative AI (GenAI)**
+  - Prompt engineering
+  - LLM integrations
+  - RAG (Retrieval-Augmented Generation)
+  - Embeddings and vector search
+
+- **Cloud (AWS)**
+  - Serverless experiments
+  - API integrations
+  - Authentication flows
+  - SDK-based prototypes
+
+- **Agent Systems**
+  - Multi-agent workflows
+  - Tool-based agents
+  - Orchestration patterns
+  - Autonomous task execution
+
+## 🧰 Tech Stack
+
+Technologies may vary across experiments:
+
+- Python
+- JavaScript / React
+- APIs and SDKs
+- Cloud services (AWS)
+- AI/ML libraries and frameworks
+
+## 📂 Structure
+
+The repository is loosely organized by areas of experimentation:
